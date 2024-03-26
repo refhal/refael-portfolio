@@ -1,0 +1,103 @@
+* {margin: 0px; padding: 0px; box-sizing: border-box; font-family: sans-serif;}
+body, html {height: 100%;}
+
+.grid {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(6, 1fr);
+}
+
+div {
+  background-color: #757575;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.nav_element {
+  list-style-type: none;
+}
+
+.nav_element button {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  width: 100%;
+  color: #FFFFFF;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  background-color: #414141;
+}
+
+.search {
+  text-align: center;
+}
+
+.search input[type=text] {
+  width: 80%;
+  box-sizing: border-box;
+  border: 2px solid #E6E6E6;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: white;
+  background-image: url('file:///C:/Users/refha/Downloads/magnifier.png');
+  background-color: #E6E6E6;
+  background-size: 25px;
+  background-position: 10px 10px; 
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 40px;
+}
+
+.podium_cards {
+  display: flex;
+  list-style-type: none;
+  gap: 10px;
+}
+
+.podium_item {
+  background-color: #b3b3b3;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.item img {
+  background-color: #E6E6E6;
+  padding: 10px 20px;
+  border-radius: 10px;
+  width: 60px;
+  height: auto;
+}
+
+#first .place img {
+  background-color: #FFD754;
+}
+#sec .place img {
+  background-color: #E9E9E9;
+}
+#third .place img {
+  background-color: #701500;
+}
+
+.place img {
+  padding: 10px 20px;
+  width: 60px;
+  border-radius: 10px;
+  height: auto;
+}
+
+.item_desc {
+  display: flex;
+  gap: 2px;
+}
+
+.item_desc button {
+  background-color: #414141;
+  border: none;
+  border-radius: 5px;
+  padding: 2px;
+}
+
+.item_desc button a {
+  text-decoration: none;
+  color: white;
+}
